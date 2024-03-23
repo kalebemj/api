@@ -17,7 +17,7 @@ const writeFile = (content) =>{
 }
 
 
-router.get(`/`, (req,res) => {
+server.get(`/`, (req,res) => {
     const content = readFile()
     res.send(content)
 })
